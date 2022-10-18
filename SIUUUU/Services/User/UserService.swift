@@ -24,7 +24,7 @@ final class UserService: UserServiceInput {
     weak var delegate: UserServiceOutput?
     
     public func getUsers(page: Int = 1) {
-        network.request(constant: .user(page: page)) { fin in
+        network.request(constant: .user(page: page)) { [unowned self] fin in
             switch fin {
             case .success(let data):
                 let detail = RootModel(json: data) ?? RootModel()

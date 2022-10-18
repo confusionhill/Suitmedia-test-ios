@@ -110,9 +110,9 @@
 		FFA3337D28FE4A8C001D94E7 /* SIUUUU */ = {
 			isa = PBXGroup;
 			children = (
+				FFA3339228FE4AB4001D94E7 /* Root */,
 				FFA333AE28FE616F001D94E7 /* Models */,
 				FFA333A828FE5C42001D94E7 /* Services */,
-				FFA3339228FE4AB4001D94E7 /* Root */,
 				FFA3339528FE4ADC001D94E7 /* Presentation */,
 				FFA3338728FE4A8E001D94E7 /* Assets.xcassets */,
 				FFA3338928FE4A8E001D94E7 /* LaunchScreen.storyboard */,
