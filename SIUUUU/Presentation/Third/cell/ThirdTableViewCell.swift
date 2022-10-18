@@ -26,7 +26,7 @@ final class ThirdTableViewCell: UITableViewCell {
         iconImage.layer.cornerRadius = iconImage.frame.width/2
         iconImage.layer.masksToBounds = true
         nameLabel.font = .boldSystemFont(ofSize: 16)
-        emailLabel.font = .systemFont(ofSize: 10)
+        emailLabel.font = .systemFont(ofSize: 14)
         emailLabel.textColor = UIColor(red: 0.408, green: 0.404, blue: 0.467, alpha: 1)
     }
 
