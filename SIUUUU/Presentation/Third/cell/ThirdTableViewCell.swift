@@ -25,6 +25,9 @@ final class ThirdTableViewCell: UITableViewCell {
         super.awakeFromNib()
         iconImage.layer.cornerRadius = iconImage.frame.width/2
         iconImage.layer.masksToBounds = true
+        nameLabel.font = .boldSystemFont(ofSize: 16)
+        emailLabel.font = .systemFont(ofSize: 10)
+        emailLabel.textColor = UIColor(red: 0.408, green: 0.404, blue: 0.467, alpha: 1)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
